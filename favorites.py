@@ -2,4 +2,6 @@ from cs50 import SQL
 
 db = SQL("sqlite:///favorites.db")
 
-SELECT * FROM favorites WHERE problem = 'Mario';
+favorite = "SELECT * FROM favorites WHERE problem = 'Mario'"
+
+print(favorite)
